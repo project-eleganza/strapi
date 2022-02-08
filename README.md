@@ -1,3 +1,4 @@
 # Strapi application
 
-test
+test2
+
