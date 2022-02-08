@@ -16,9 +16,9 @@ module.exports = ({ env }) => ({
         apiKey: env('SENDGRID_API_KEY'),
       },
       settings: {
-        defaultFrom: 'marialena.pietri@expertecom.fr',
-        defaultReplyTo: 'marialena.pietri@expertecom.fr',
-        testAddress: 'marialena.pietri@expertecom.fr',
+        defaultFrom: env('MAIL_FROM_EMAIL'),
+        defaultReplyTo: env('MAIL_REPLY_EMAIL'),
+        testAddress: env('MAIL_TEST_EMAIL'),
       },
   },
 });
