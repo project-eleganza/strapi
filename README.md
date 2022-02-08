@@ -1,2 +1,3 @@
 # Strapi application
 
+test
