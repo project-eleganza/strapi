@@ -1,3 +1,3 @@
 module.exports = ({ env }) => ({
-  url: env('SERVER_URL'),
+  url: env('https://strapi-eleganza.herokuapp.com/'),
 });
