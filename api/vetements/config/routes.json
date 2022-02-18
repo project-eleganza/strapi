@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/brews",
-      "handler": "brew.find",
+      "path": "/vetements",
+      "handler": "vetements.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/brews/count",
-      "handler": "brew.count",
+      "path": "/vetements/count",
+      "handler": "vetements.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/brews/:id",
-      "handler": "brew.findOne",
+      "path": "/vetements/:id",
+      "handler": "vetements.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/brews",
-      "handler": "brew.create",
+      "path": "/vetements",
+      "handler": "vetements.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/brews/:id",
-      "handler": "brew.update",
+      "path": "/vetements/:id",
+      "handler": "vetements.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/brews/:id",
-      "handler": "brew.delete",
+      "path": "/vetements/:id",
+      "handler": "vetements.delete",
       "config": {
         "policies": []
       }

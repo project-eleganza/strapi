@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "taille-chaussure",
+  "info": {
+    "name": "Taille Chaussure"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Value": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

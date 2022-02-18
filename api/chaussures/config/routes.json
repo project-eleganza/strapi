@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/chaussures",
+      "handler": "chaussures.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/chaussures/count",
+      "handler": "chaussures.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/chaussures/:id",
+      "handler": "chaussures.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/chaussures",
+      "handler": "chaussures.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/chaussures/:id",
+      "handler": "chaussures.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/chaussures/:id",
+      "handler": "chaussures.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

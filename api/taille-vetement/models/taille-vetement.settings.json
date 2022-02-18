@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "taille-vetement",
+  "info": {
+    "name": "Taille vetement"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Value": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

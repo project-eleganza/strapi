@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/taille-chaussures",
+      "handler": "taille-chaussure.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/taille-chaussures/count",
+      "handler": "taille-chaussure.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/taille-chaussures/:id",
+      "handler": "taille-chaussure.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/taille-chaussures",
+      "handler": "taille-chaussure.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/taille-chaussures/:id",
+      "handler": "taille-chaussure.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/taille-chaussures/:id",
+      "handler": "taille-chaussure.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

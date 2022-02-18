@@ -1,0 +1,101 @@
+{
+  "kind": "collectionType",
+  "collectionName": "chaussures",
+  "info": {
+    "name": "Chaussures",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "advice": {
+      "type": "string"
+    },
+    "marque": {
+      "type": "string"
+    },
+    "NumMarque": {
+      "type": "string"
+    },
+    "NumArticle": {
+      "type": "string"
+    },
+    "Couleur": {
+      "type": "string"
+    },
+    "Fermeture": {
+      "type": "string"
+    },
+    "DoublureInterieur": {
+      "type": "string"
+    },
+    "BasePrice": {
+      "type": "decimal"
+    },
+    "NetPrice": {
+      "type": "decimal"
+    },
+    "UrlImage1": {
+      "type": "string"
+    },
+    "UrlImage2": {
+      "type": "string"
+    },
+    "UrlImage3": {
+      "type": "string"
+    },
+    "UrlImage4": {
+      "type": "string"
+    },
+    "Brand": {
+      "type": "string"
+    },
+    "Designer": {
+      "type": "string"
+    },
+    "Category": {
+      "type": "string"
+    },
+    "hauteurTalon": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "conseilTaille": {
+      "type": "string"
+    },
+    "sku": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "UrlImage8": {
+      "type": "string"
+    },
+    "UrlImage7": {
+      "type": "string"
+    },
+    "UrlImage6": {
+      "type": "string"
+    },
+    "UrlImage5": {
+      "type": "string"
+    },
+    "size": {
+      "type": "json"
+    },
+    "menu_category": {
+      "via": "chaussures",
+      "model": "menu-category"
+    }
+  }
+}

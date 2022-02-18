@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "designers",
+  "info": {
+    "name": "Designer"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    }
+  }
+}

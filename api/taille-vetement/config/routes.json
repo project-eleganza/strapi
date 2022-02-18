@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/taille-vetements",
+      "handler": "taille-vetement.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/taille-vetements/count",
+      "handler": "taille-vetement.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/taille-vetements/:id",
+      "handler": "taille-vetement.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/taille-vetements",
+      "handler": "taille-vetement.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/taille-vetements/:id",
+      "handler": "taille-vetement.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/taille-vetements/:id",
+      "handler": "taille-vetement.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

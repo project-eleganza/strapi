@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "brands",
+  "collectionName": "Brands",
   "info": {
-    "name": "Brand",
-    "description": ""
+    "name": "Brands"
   },
   "options": {
     "increments": true,
@@ -12,30 +11,19 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
-      "type": "string"
-    },
-    "Description": {
-      "type": "text"
+    "Title": {
+      "type": "string",
+      "required": true
     },
     "Image": {
-      "model": "file",
+      "collection": "file",
       "via": "related",
       "allowedTypes": [
-        "files",
-        "images",
-        "videos"
+        "images"
       ],
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
-    },
-    "brews": {
-      "via": "brand",
-      "collection": "brew"
-    },
-    "price": {
-      "type": "decimal"
     }
   }
 }

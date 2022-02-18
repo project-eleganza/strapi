@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menu_categories",
+  "info": {
+    "name": "MenuCategory"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "UrlImage": {
+      "type": "string"
+    },
+    "chaussures": {
+      "collection": "chaussures",
+      "via": "menu_category"
+    },
+    "vetements": {
+      "collection": "vetements",
+      "via": "menu_category"
+    }
+  }
+}
