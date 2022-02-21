@@ -116,3 +116,6 @@ package-lock.json
 .env
 sendgrid.env
 extensions/upload/config/settings.json
+
+#frontend
+/eleganza

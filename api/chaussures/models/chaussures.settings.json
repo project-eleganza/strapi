@@ -93,9 +93,9 @@
     "size": {
       "type": "json"
     },
-    "menu_category": {
+    "menu_sous_category": {
       "via": "chaussures",
-      "model": "menu-category"
+      "model": "menu-sous-category"
     }
   }
 }

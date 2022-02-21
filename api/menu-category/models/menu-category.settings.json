@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "menu_categories",
   "info": {
-    "name": "MenuCategory"
+    "name": "MenuCategory",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -14,15 +15,8 @@
     "Name": {
       "type": "string"
     },
-    "UrlImage": {
-      "type": "string"
-    },
-    "chaussures": {
-      "collection": "chaussures",
-      "via": "menu_category"
-    },
-    "vetements": {
-      "collection": "vetements",
+    "menu_sous_categories": {
+      "collection": "menu-sous-category",
       "via": "menu_category"
     }
   }

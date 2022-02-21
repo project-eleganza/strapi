@@ -83,10 +83,6 @@
     },
     "size": {
       "type": "json"
-    },
-    "menu_category": {
-      "via": "vetements",
-      "model": "menu-category"
     }
   }
 }

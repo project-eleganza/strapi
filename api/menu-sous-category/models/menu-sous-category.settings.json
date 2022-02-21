@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menu_sous_categories",
+  "info": {
+    "name": "MenuSousCategory"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "UrlImage": {
+      "type": "string"
+    },
+    "chaussures": {
+      "collection": "chaussures",
+      "via": "menu_sous_category"
+    },
+    "vetement": {
+      "model": "vetements"
+    },
+    "menu_category": {
+      "via": "menu_sous_categories",
+      "model": "menu-category"
+    }
+  }
+}
